@@ -1,0 +1,5 @@
+customer_id,full_name,email,phone,address,city,province,postal_code,updated_at
+1001,Jean Tremblay,jean.tremblay@gmail.com,514-555-0101,123 Rue Saint-Paul,Montreal,QC,H2Y1Z5,2026-09-01 10:15:00
+1002,Maria Silva,MARIA.SILVA@GMAIL.COM,5145550102,45 Av. du Parc,Montreal,QC,H2X2J4,2026-09-02 09:30:00
+1003,John Smith,john.smith@gmail.com,514-555-0103,10 Main St,Laval,QC,H7N1A1,2026-09-03 14:00:00
+1004,Sophie Martin,sophie.martin@gmail.com,514-555-0104,8 Rue Sherbrooke,Longueuil,QC,J4K2M1,2026-09-04 16:20:00

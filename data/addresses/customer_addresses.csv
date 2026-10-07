@@ -1,0 +1,5 @@
+customer_id,address_type,street,city,province,postal_code,effective_from
+1001,HOME,123 Rue Saint-Paul,Montreal,QC,H2Y1Z5,2025-01-01
+1002,HOME,45 Av. du Parc,Montreal,QC,H2X2J4,2025-05-01
+1003,HOME,10 Main St,Laval,QC,H7N1A1,2025-03-15
+1004,HOME,8 Rue Sherbrooke,Longueuil,QC,J4K2M1,2025-07-01

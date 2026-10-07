@@ -1,0 +1,28 @@
+{
+  "project_name": "aws-legacy-data-migration-lab",
+  "aws_region": "ca-central-1",
+  "s3_bucket": "legacy-migration-lab",
+  "database_name": "legacy_migration_lab",
+  "sources": {
+    "master": {
+      "s3_prefix": "s3://legacy-migration-lab/data/master/",
+      "table_name": "raw_customers_master",
+      "format": "CSV"
+    },
+    "crm": {
+      "s3_prefix": "s3://legacy-migration-lab/data/crm/",
+      "table_name": "raw_customers_crm",
+      "format": "CSV"
+    },
+    "addresses": {
+      "s3_prefix": "s3://legacy-migration-lab/data/addresses/",
+      "table_name": "raw_customer_addresses",
+      "format": "CSV"
+    }
+  },
+  "curated_target": {
+    "s3_prefix": "s3://legacy-migration-lab/curated/customer_golden/",
+    "table_name": "customer_golden",
+    "format": "PARQUET"
+  }
+}

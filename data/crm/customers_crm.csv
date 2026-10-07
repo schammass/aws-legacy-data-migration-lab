@@ -1,0 +1,5 @@
+crm_customer_id,customer_name,email_address,mobile,street,municipality,prov,zip,last_modified
+C-9001,Jean  Tremblay,JEAN.TREMBLAY@GMAIL.COM,(514) 555-0101,123 rue saint-paul,Montréal,qc,H2Y 1Z5,2026-09-05 08:00:00
+C-9002,Maria Silva,maria.silva@gmail.com,514.555.0102,45 avenue du parc,Montréal,QC,H2X 2J4,2026-09-05 08:10:00
+C-9003,John Smith,john.smith@gmail.com,5145550103,10 Main Street,Laval,QC,H7N 1A1,2026-09-05 08:20:00
+C-9004,Pierre Gagnon,pierre.gagnon@gmail.com,514-555-0199,77 Rue Cartier,Quebec City,QC,G1R2K1,2026-09-05 08:30:00
