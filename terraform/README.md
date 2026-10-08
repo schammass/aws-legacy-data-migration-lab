@@ -122,3 +122,7 @@ terraform -chdir=terraform validate
 VALIDATE_ONLY=true TF_DATA_BUCKET=legacy-migration-lab python scripts/run_athena_pipeline.py
 python -m unittest discover -s tests
 ```
+
+# Notes
+
+Changes to any file within terraform/, including documentation, trigger validation and the generation of a new plan upon pushing to main.

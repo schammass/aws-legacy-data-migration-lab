@@ -14,6 +14,11 @@ import {
   id = var.bucket_name
 }
 
+import {
+  to = aws_athena_workgroup.migration
+  id = "legacy-migration-lab"
+}
+
 resource "aws_s3_bucket" "data" {
   bucket = var.bucket_name
 
